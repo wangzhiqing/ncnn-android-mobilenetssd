@@ -25,8 +25,18 @@ public class MobilenetSSDNcnn
     {
         public float x;
         public float y;
-        public float w;
-        public float h;
+        public float xLeft_1;
+        public float yLeft_1;
+        public float xLeft_2;
+        public float yLeft_2;
+        public float xLeft_3;
+        public float yLeft_3;
+        public float xRight_1;
+        public float yRight_1;
+        public float xRight_2;
+        public float yRight_2;
+        public float xRight_3;
+        public float yRight_3;
         public String label;
         public float prob;
     }
